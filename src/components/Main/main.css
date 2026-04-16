@@ -1,0 +1,70 @@
+
+.service{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 80px;
+    font-size: 32px;
+    /* padding-bottom: 40px; */
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.info{
+    display: flex;
+    width: 900px;
+    gap: 60px;
+}
+.mainSecImg{
+    box-shadow: 0px 8px 15px #cff2f5;
+}
+.mainTextInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h3{
+    font-size: 20px;
+}
+.mainP{
+    font-size: 18px;
+    color: #555;
+    line-height: 150%;
+}
+.mainBottomDiv{
+    background-color: rgb(20, 180, 180);
+    margin-top: 100px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+.btnBox{
+    display: flex;
+    gap: 30px;
+}
+.mainbtn{
+    width: 220px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(20, 180, 180);
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.mainbtn:hover{
+    background-color: rgb(218, 35, 75);
+    border: 2px solid rgb(218, 35, 75);
+    cursor: pointer;
+}
