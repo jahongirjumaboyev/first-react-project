@@ -1,0 +1,95 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.leftside{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.brandName{
+    margin-left: 10px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.brandName:hover{
+   color: rgb(218, 35, 75);
+   cursor: pointer;
+}
+
+.lists{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(218, 35, 75);
+}
+
+.btn{
+    width: 200px;
+    height: 45px;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(218, 35, 75);
+    border: none;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(218, 35, 75);
+    color: rgb(218, 35, 75);
+}
+
+.hero-section{
+    background-color: rgb(20, 180, 180);
+    margin-top: 30px;
+}
+.hero-decor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left-firstText{
+    margin-top: 100px;
+    width: 500px;
+    color: white;
+    font-size: 28px;
+    line-height: 130%;
+    font-weight: 700;
+}
+.hero-left-secondText{
+    width: 460px;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    line-height: 150%;
+    padding-bottom: 40px;
+}
+.heroimg{
+    margin-top: 20px;
+}
