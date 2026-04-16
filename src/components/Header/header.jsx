@@ -14,11 +14,11 @@ function Logo() {
                 </div>
                 <div>
                     <ul className="lists">
-                        <li><a href="#">Xizmatlar</a></li>
-                        <li><a href="#">Dorilar</a></li>
-                        <li><a href="#">Asal</a></li>
-                        <li><a href="#">Kontaktlar</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="/xizmatlar">Xizmatlar</a></li>
+                        <li><a href="/xizmatlar">Dorilar</a></li>
+                        <li><a href="/xizmatlar">Asal</a></li>
+                        <li><a href="/xizmatlar">Kontaktlar</a></li>
+                        <li><a href="/xizmatlar">Blog</a></li>
                     </ul>
                 </div>
                 <button className="btn">Qabulga yozdirish</button>
